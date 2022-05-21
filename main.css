@@ -1,0 +1,31 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #ABD7FF;
+    overflow: hidden;
+}
+
+.items
+{
+    position: absolute;
+    width: 1000px;
+    height: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .6s;
+    z-index: 1;
+}
+
+.items__items:hover
+{
+    fill: #7DAFDD;
+    transition: .6s;
+    cursor: pointer;
+}
+
